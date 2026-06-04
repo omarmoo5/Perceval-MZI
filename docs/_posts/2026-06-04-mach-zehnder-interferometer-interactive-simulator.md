@@ -66,7 +66,6 @@ Several educational quantum simulators exist:
 
 - **Quirk** (Strilanc) — browser-based quantum circuit simulator with drag-and-drop gates
 - **IBM Quantum Composer** — visual quantum circuit builder with real hardware access
-- **Quantum Circuit Simulator** (QCS) — various web-based educational tools
 
 What sets this project apart is the **real-time interactive control** with a physical slider metaphor, combined with **live plot updates** showing theory vs simulation side by side, making the connection between the abstract phase parameter and the measured interference pattern immediately visible.
 
