@@ -83,6 +83,14 @@ What sets this project apart is the **real-time interactive control** with a phy
 | Plotting | Matplotlib |
 | Numerical | NumPy |
 
+### Why Perceval?
+
+I chose Perceval because it's built specifically for simulating light-based (photonic) quantum circuits. It provides high-level abstractions for beam splitters, phase shifters, and other optical components, making it straightforward to model the MZI. 
+
+Perceval has different "backends" — I used the **SLOS** backend (Strong Linear Optical Simulation) because it's optimized for light-based circuits, allowing for fast simulations that can update in real time as the user adjusts the phase slider.
+
+The official docs explain all the available backends here: [Perceval Backends Reference](https://perceval.quandela.net/docs/v1.2/reference/backends/slos.html)
+
 ### Architecture
 
 The application is split into two main modules:
