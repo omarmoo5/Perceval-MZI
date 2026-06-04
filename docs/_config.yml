@@ -2,3 +2,5 @@ title: "Quantum Mach-Zehnder Interferometer"
 description: "An interactive PyQt5 simulation — walkthrough, physics, and implementation notes"
 theme: jekyll-theme-minimal
 show_downloads: false
+baseurl: "/Perceval-MZI"
+url: "https://omarmoo5.github.io"

@@ -2,15 +2,14 @@
 
 An interactive PyQt5 desktop application for exploring quantum interference in a photonic Mach-Zehnder interferometer, built with the Perceval quantum computing framework.
 
-- [Full Blog Post: Building an Interactive MZI Simulator]({% post_url 2026-06-04-mach-zehnder-interferometer-interactive-simulator %})
-- [GitHub Repository](https://github.com/anomalyco/quantum-project)
-
+- [Full Blog Post: Building an Interactive MZI Simulator]({{ site.baseurl }}{% post_url 2026-06-04-mach-zehnder-interferometer-interactive-simulator %})
+- [GitHub Repository](https://github.com/omarmoo5/Perceval-MZI)
 ---
 
 ## Quick Overview
 
 <div style="text-align: center;">
-    <img src="assets/images/ui_overview.png" alt="Application UI Overview" width="700"/>
+    <img src="{{ '/assets/images/ui_overview.png' | relative_url }}" alt="Application UI Overview" width="700"/>
     <p><em>Main application window showing controls, schematic, and interference plots.</em></p>
 </div>
 
