@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mach-zehnder-sim"
+version = "0.1.0"
+description = "Simulation of a Mach-Zehnder interferometer using the Perceval framework"
+requires-python = ">=3.9"
+dependencies = [
+    "perceval-quandela==1.0.1",
+    "numpy>=1.21.0,<2.0.0",
+    "matplotlib>=3.5.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "black>=23.0",
+]
+qt = [
+    "PyQt5>=5.15.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["quantum_sim*"]
