@@ -2,6 +2,7 @@
 layout: post
 title: "Building an Interactive Mach-Zehnder Interferometer Simulator"
 date: 2026-06-04
+author: "Omar Mokhtar"
 categories: quantum physics simulation
 tags: [quantum, perceval, pyqt5, interferometer, simulation]
 ---
