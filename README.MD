@@ -37,5 +37,6 @@ source .venv/bin/activate
 uv pip install -e ".[qt]"
 ```
 To run the Qt application:
-```bash run_qt_app.sh
+```bash 
+run_qt_app.sh
 ```
